@@ -1,0 +1,17 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Image{
+    max-width: 400px;
+}
+
+.NoUser{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px; // must move to scss vars
+    text-transform: uppercase;
+}

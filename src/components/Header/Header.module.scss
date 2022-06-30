@@ -1,0 +1,9 @@
+@import "../../../src/styles/mixins/mixins";
+
+.Header{
+    @include header-footer-block;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

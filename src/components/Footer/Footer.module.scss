@@ -1,0 +1,10 @@
+@import "../../../src/styles/mixins/mixins";
+
+.Footer{
+    @include header-footer-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
